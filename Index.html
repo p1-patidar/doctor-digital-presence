@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Services Brochure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="gradient-bg">
+        <div class="container">
+            <h1>Web Development Services</h1>
+            <p>Elevate Your Online Presence with Our Expert Solutions</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <main id="main-content">
+            <nav>
+                <button id="services-tab" class="tab-button active">
+                    <i class="fas fa-laptop-code"></i> Services
+                </button>
+                <button id="maintenance-tab" class="tab-button">
+                    <i class="fas fa-tools"></i> Maintenance
+                </button>
+                <button id="contact-tab" class="tab-button">
+                    <i class="fas fa-envelope"></i> Contact
+                </button>
+            </nav>
+
+            <div id="services-content" class="tab-content active">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-seedling"></i></div>
+                        <h3>Basic Website</h3>
+                        <p>Simple design, basic functionality, Google Sheets integration</p>
+                        <p class="price">₹15,000 to ₹30,000</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-tree"></i></div>
+                        <h3>Standard Website</h3>
+                        <p>Custom design, multiple features like payment gateway integration, online appointment options</p>
+                        <p class="price">₹30,000 to ₹60,000</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Advanced Website</h3>
+                        <p>Highly customized, complex features, advanced security, responsive design</p>
+                        <p class="price">₹60,000 to ₹1,00,000+</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="maintenance-content" class="tab-content">
+                <h2>Maintenance & Subscriptions</h2>
+                <div class="maintenance-grid">
+                    <div class="maintenance-card">
+                        <h3>Maintenance Charges</h3>
+                        <ul>
+                            <li><i class="fas fa-calendar-alt"></i> Monthly: ₹1,500 - ₹3,000</li>
+                            <li><i class="fas fa-calendar-check"></i> Quarterly: ₹4,000 - ₹8,000</li>
+                            <li><i class="fas fa-calendar"></i> Annual: ₹15,000 - ₹25,000</li>
+                        </ul>
+                        <p>What's Included:</p>
+                        <ul>
+                            <li><i class="fas fa-sync"></i> Regular updates and backups</li>
+                            <li><i class="fas fa-wrench"></i> Bug fixes and troubleshooting</li>
+                            <li><i class="fas fa-edit"></i> Minor content updates</li>
+                            <li><i class="fas fa-shield-alt"></i> Basic security checks and monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="maintenance-card">
+                        <h3>Subscription Services</h3>
+                        <ul>
+                            <li><i class="fas fa-server"></i> Hosting & Domain Management: ₹2,000 - ₹5,000 per year</li>
+                            <li><i class="fas fa-headset"></i> Premium Support Package: ₹2,000 - ₹4,000 per month</li>
+                            <li><i class="fas fa-puzzle-piece"></i> Feature Enhancements: ₹5,000 - ₹10,000 per feature</li>
+                        </ul>
+                        <h3>Optional Add-Ons</h3>
+                        <ul>
+                            <li><i class="fas fa-search"></i> SEO Optimization: ₹5,000 - ₹10,000 per month</li>
+                            <li><i class="fas fa-share-alt"></i> Social Media Integration: ₹3,000 - ₹5,000 one-time</li>
+                            <li><i class="fas fa-chart-bar"></i> Advanced Analytics & Reporting: ₹3,000 - ₹7,000 per month</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact-content" class="tab-content">
+                <h2>Get in Touch</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="firstName" required>
+                        <label for="firstName">First Name</label>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="lastName" required>
+                        <label for="lastName">Last Name</label>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email Address</label>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" required>
+                        <label for="phone">Phone Number</label>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>SUBMIT</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Your Web Development Company. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
